@@ -1,0 +1,14 @@
+server {
+        listen 80;
+        listen [::]:80;
+
+        root /home/ubuntu/hw0;
+        index hw0.html;
+
+        server_name lawlin.cse356.compas.cs.stonybrook.edu www.lawlin.cse356.compas.cs.stonybrook.edu;
+
+        location / { 
+                root /home/ubuntu/hw0;
+		index hw0.html;
+	}
+}
